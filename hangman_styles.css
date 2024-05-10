@@ -1,0 +1,101 @@
+body {
+    background: rgb(63, 76, 90);
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1, h5 {
+    text-align: center;
+    color: rgb(150, 150, 39);
+  }
+  
+  .win {
+    color: white;
+    background-color: rgb(37, 14, 243);
+  }
+  
+  .loss {
+    color: white;
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(38, 26, 210);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(73, 24, 232);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(197, 42, 184);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(255, 255, 153);
+      font-weight: bold;
+      font-family: "Courier New", Courier, monospace
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid rgb(255, 255, 153);
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #2a8f8a;
+    background-color: rgb(43, 159, 241);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: rgb(192, 43, 187)}
+  
+  .button:active {
+    background-color: rgb(31, 128, 188);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
